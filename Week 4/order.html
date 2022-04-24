@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {background-color: #8fced3;}
+    </style>
+<h1>Treat Well Bakery</h1>
+</head>
+<body>
+    <h2>Order Here</h2>
+    <img src="file:///Users/jakita/iCloud%20Drive%20(Archive)/Documents/GitHub/TTA-Software-Course/Week%204/Images/debby-hudson-B9BSUnwRsTs-unsplash.jpg" alt="Choc Doughnut" width="200" height="150">
+    <img src="file:///Users/jakita/iCloud%20Drive%20(Archive)/Documents/GitHub/TTA-Software-Course/Week%204/Images/alice-pasqual-cOKmuKWSsiM-unsplash.jpg" alt="Oreo Doughnut" width="200" height="150">
+    <img src="file:///Users/jakita/iCloud%20Drive%20(Archive)/Documents/GitHub/TTA-Software-Course/Week%204/Images/anna-sullivan--tR4fnNJW2A-unsplash.jpg" alt="Sprinkle Doughnut" width="200" height="150">
+    <img src="file:///Users/jakita/iCloud%20Drive%20(Archive)/Documents/GitHub/TTA-Software-Course/Week%204/Images/darko-trajkovic-ZGH3zk9jrec-unsplash.jpg" alt="Micky Doughnut" width="200" height="150">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: rgb(80, 164, 192);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #3b6c7c;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #98c9da;
+      padding: 20px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <h3>Order Form</h3>
+    
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="Choose a flavor">Choose a Flavor</label>
+        <select id="flavor" name="flavor">
+          <option value="pick here">Pick here</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="oreo">Oreo</option>
+          <option value="strawberry">Strawberry</option>
+          <option value="vanilla">Vanilla</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Comments: allergies or special requests..." style="height:150px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+</body>
+</html>
